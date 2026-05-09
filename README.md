@@ -43,7 +43,7 @@ python manage.py runserver
 }
 ```
 
-![Crear plato](./docs/post-plato.png)
+![Crear plato](docs/post-plato.png)
 
 ---
 
@@ -53,7 +53,7 @@ python manage.py runserver
 GET http://127.0.0.1:8000/api/platos/
 ```
 
-![Listar platos](./docs/get-plato.png)
+![Listar platos](docs/get-plato.png)
 
 ---
 
@@ -63,7 +63,7 @@ GET http://127.0.0.1:8000/api/platos/
 GET http://127.0.0.1:8000/api/platos/2/
 ```
 
-![Ver plato por ID](./docs/platos-get-id.png)
+![Ver plato por ID](docs/platos-get-id.png)
 
 ---
 
@@ -77,7 +77,7 @@ GET http://127.0.0.1:8000/api/platos/2/
 }
 ```
 
-![Editar plato PUT](./docs/platos-put.png)
+![Editar plato PUT](docs/platos-put.png)
 
 ---
 
@@ -89,7 +89,7 @@ GET http://127.0.0.1:8000/api/platos/2/
 }
 ```
 
-![Editar plato PATCH](./docs/platos-patch.png)
+![Editar plato PATCH](docs/platos-patch.png)
 
 ---
 
@@ -99,7 +99,7 @@ GET http://127.0.0.1:8000/api/platos/2/
 GET http://127.0.0.1:8000/api/platos/?search=ceviche
 ```
 
-![Buscar plato por nombre](./docs/platos-search-nombre.png)
+![Buscar plato por nombre](docs/platos-search-nombre.png)
 
 ---
 
@@ -109,7 +109,7 @@ GET http://127.0.0.1:8000/api/platos/?search=ceviche
 GET http://127.0.0.1:8000/api/platos/?search=principal
 ```
 
-![Buscar plato por categoría](./docs/platos-search-categoria.png)
+![Buscar plato por categoría](docs/platos-search-categoria.png)
 
 ---
 
@@ -121,7 +121,7 @@ DELETE http://127.0.0.1:8000/api/platos/8/
 
 Respuesta: `204 No Content`
 
-![Eliminar plato](./docs/platos-delete.png)
+![Eliminar plato](docs/platos-delete.png)
 
 ---
 
@@ -139,7 +139,7 @@ Respuesta: `204 No Content`
 
 Respuesta personalizada (punto extra): el campo `nombres_platos` muestra los nombres reales de los platos en lugar de solo sus IDs.
 
-![Crear pedido](./docs/pedidos-post.png)
+![Crear pedido](docs/pedidos-post.png)
 
 ---
 
@@ -149,7 +149,7 @@ Respuesta personalizada (punto extra): el campo `nombres_platos` muestra los nom
 GET http://127.0.0.1:8000/api/pedidos/
 ```
 
-![Listar pedidos](./docs/pedidos-get.png)
+![Listar pedidos](docs/pedidos-get.png)
 
 ---
 
@@ -159,7 +159,7 @@ GET http://127.0.0.1:8000/api/pedidos/
 GET http://127.0.0.1:8000/api/pedidos/2/
 ```
 
-![Ver pedido por ID](./docs/pedidos-get-id.png)
+![Ver pedido por ID](docs/pedidos-get-id.png)
 
 ---
 
@@ -173,7 +173,7 @@ GET http://127.0.0.1:8000/api/pedidos/2/
 }
 ```
 
-![Editar pedido PUT](./docs/pedidos-put.png)
+![Editar pedido PUT](docs/pedidos-put.png)
 
 ---
 
@@ -185,7 +185,7 @@ GET http://127.0.0.1:8000/api/pedidos/2/
 }
 ```
 
-![Editar pedido PATCH](./docs/pedidos-patch.png)
+![Editar pedido PATCH](docs/pedidos-patch.png)
 
 ---
 
@@ -195,7 +195,7 @@ GET http://127.0.0.1:8000/api/pedidos/2/
 GET http://127.0.0.1:8000/api/pedidos/?search=pendiente
 ```
 
-![Buscar pedido pendiente](./docs/pedidos-search-pendiente.png)
+![Buscar pedido pendiente](docs/pedidos-search-pendiente.png)
 
 ---
 
@@ -205,7 +205,7 @@ GET http://127.0.0.1:8000/api/pedidos/?search=pendiente
 GET http://127.0.0.1:8000/api/pedidos/?search=completado
 ```
 
-![Buscar pedido completado](./docs/pedidos-search-completado.png)
+![Buscar pedido completado](docs/pedidos-search-completado.png)
 
 ---
 
@@ -217,4 +217,4 @@ DELETE http://127.0.0.1:8000/api/pedidos/3/
 
 Respuesta: `204 No Content`
 
-![Eliminar pedido](./docs/pedidos-delete.png)
+![Eliminar pedido](docs/pedidos-delete.png)
